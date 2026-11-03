@@ -1,0 +1,1 @@
+ALTER TABLE candidatos ADD COLUMN IF NOT EXISTS email TEXT;

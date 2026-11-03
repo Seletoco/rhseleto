@@ -1,0 +1,10 @@
+ALTER TABLE candidatos ADD COLUMN IF NOT EXISTS entrevista_data DATE;
+ALTER TABLE candidatos ADD COLUMN IF NOT EXISTS entrevista_hora TEXT;
+ALTER TABLE candidatos ADD COLUMN IF NOT EXISTS entrevista_modalidade TEXT;
+ALTER TABLE candidatos ADD COLUMN IF NOT EXISTS entrevista_local TEXT;
+ALTER TABLE candidatos ADD COLUMN IF NOT EXISTS entrevista_gestor TEXT;
+ALTER TABLE candidatos ADD COLUMN IF NOT EXISTS entrevista_email_unidade TEXT;
+ALTER TABLE candidatos ADD COLUMN IF NOT EXISTS entrevista_agendada_em TIMESTAMPTZ;
+ALTER TABLE candidatos ADD COLUMN IF NOT EXISTS entrevista_resultado TEXT DEFAULT 'Aguardando';
+ALTER TABLE candidatos ADD COLUMN IF NOT EXISTS entrevista_motivo_nao_contratacao TEXT;
+ALTER TABLE candidatos ADD COLUMN IF NOT EXISTS entrevista_tipo TEXT;

@@ -1,0 +1,17 @@
+# dependências e build
+node_modules
+.next
+out
+*.tsbuildinfo
+next-env.d.ts
+
+# segredos: nunca versionar
+.env
+.env.*
+!.env.example
+
+# sistema
+.DS_Store
+__MACOSX
+.vercel
+*.zip

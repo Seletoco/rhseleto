@@ -1,0 +1,8 @@
+ALTER TABLE candidatos
+  ADD COLUMN IF NOT EXISTS ia_tipo_perfil TEXT,
+  ADD COLUMN IF NOT EXISTS ia_resumo TEXT,
+  ADD COLUMN IF NOT EXISTS ia_pontos_fortes JSONB,
+  ADD COLUMN IF NOT EXISTS ia_pontos_atencao JSONB,
+  ADD COLUMN IF NOT EXISTS ia_recomendacao TEXT,
+  ADD COLUMN IF NOT EXISTS ia_justificativa TEXT,
+  ADD COLUMN IF NOT EXISTS ia_analisado_em TIMESTAMPTZ;

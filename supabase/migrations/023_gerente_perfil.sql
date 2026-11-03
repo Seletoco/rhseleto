@@ -1,0 +1,15 @@
+ALTER TABLE candidatos ADD COLUMN IF NOT EXISTS perfil_gerente TEXT;
+ALTER TABLE candidatos ADD COLUMN IF NOT EXISTS incomodo_lideranca_opcao TEXT;
+ALTER TABLE candidatos ADD COLUMN IF NOT EXISTS gosta_vender_opcao TEXT;
+ALTER TABLE candidatos ADD COLUMN IF NOT EXISTS reacao_abaixo_meta_opcao TEXT;
+ALTER TABLE candidatos ADD COLUMN IF NOT EXISTS prejudica_resultado_opcao TEXT;
+ALTER TABLE candidatos ADD COLUMN IF NOT EXISTS diferencial_vendas_opcao TEXT;
+ALTER TABLE candidatos ADD COLUMN IF NOT EXISTS diferenca_gerente_forte_opcao TEXT;
+ALTER TABLE candidatos ADD COLUMN IF NOT EXISTS prejudica_equipe_opcao TEXT;
+ALTER TABLE candidatos ADD COLUMN IF NOT EXISTS caracteristica_principal_opcao TEXT;
+ALTER TABLE candidatos ADD COLUMN IF NOT EXISTS incomodo_equipe_opcao TEXT;
+ALTER TABLE candidatos ADD COLUMN IF NOT EXISTS perde_motivacao_opcao TEXT;
+ALTER TABLE candidatos ADD COLUMN IF NOT EXISTS significado_comprometimento_opcao TEXT;
+ALTER TABLE candidatos ADD COLUMN IF NOT EXISTS intenso_vs_toxico_opcao TEXT;
+ALTER TABLE candidatos ADD COLUMN IF NOT EXISTS visao_acompanhamento_meta_opcao TEXT;
+ALTER TABLE candidatos ADD COLUMN IF NOT EXISTS acao_movimento_fraco_opcao TEXT;
